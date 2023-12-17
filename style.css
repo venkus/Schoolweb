@@ -1,0 +1,197 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+.st1 {
+  height: 70vh;
+  width: 100%;
+  background-image: url(images/bg.jpg);
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.btbg {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 13px;
+  border-radius: 4px;
+}
+
+.content {
+  color: #ffffff;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
+
+h1 {
+  display: block;
+  font-weight: bolder;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.txt1 {
+  font-size: 27px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.txt2 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line1 {
+  position: absolute;
+  bottom: 30%;
+  width: 100%;
+  margin-top: -1px;
+  border: none;
+  border-top: 10px solid rgb(46, 46, 46);
+}
+
+#tv1 {
+  position: absolute;
+  top: 73%;
+  left: 100vh;
+}
+
+.line2 {
+  position: absolute;
+  top: 130%;
+  width: 100%;
+  margin-top: -1px;
+  border: none;
+  border-top: 10px solid rgb(46, 46, 46);
+}
+
+.content1 {
+  color: #ffffff;
+}
+
+.txt3 {
+  margin-top: 200px;
+  margin-left: 21%;
+}
+
+.txt4 {
+  margin-left: 21.2%;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+container {
+  display: flex;
+}
+
+#tv2 {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 131%;
+  left: 35vh;
+}
+
+.content2 {
+  color: #ffffff;
+}
+.txt5 {
+  margin-top: 20%;
+  margin-left: 55%;
+}
+
+.txt6 {
+  margin-left: 55%;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.line3 {
+  position: absolute;
+  top: 190%;
+  width: 100%;
+  margin-top: -1px;
+  border: none;
+  border-top: 10px solid rgb(46, 46, 46);
+}
+
+.content3 {
+  color: #ffffff;
+}
+#tv3 {
+  position: absolute;
+  top: 195%;
+  left: 100vh;
+}
+
+.txt7 {
+  margin-top: 22%;
+  margin-left: 21%;
+}
+
+.txt8 {
+  margin-left: 21.2%;
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.line4 {
+  position: absolute;
+  top: 250%;
+  width: 100%;
+  margin-top: -1px;
+  border: none;
+  border-top: 10px solid rgb(46, 46, 46);
+}
+.content4 {
+  color: #ffffff;
+  font-size: 23px;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.txt9 {
+  text-align: center;
+  margin-top: 20%;
+}
